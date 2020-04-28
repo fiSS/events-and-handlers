@@ -33,7 +33,7 @@ wrapper.addEventListener('click', function(){
     console.log('произошло событие: ' + event.type + ' на елементе ' + event.target);
 });
 ```
-##### отмена стандартных событий браузера при помощи метода forEach действием preventDefault.
+##### отмена стандартных событий браузера при помощи действия preventDefault.
 
 ```javascript
 link.addEventListener('click', function(event) {
