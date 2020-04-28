@@ -19,8 +19,8 @@ let btns = document.querySelectorAll('button'),
 ##### сначала отрабатывается событие на самом вложенном елементе
 
 ```javascript
-wrapper.addEventListener('click', function(){
-    console.log('произошло событие: ' + event.type + ' на елементе ' + event.target);
+btns[0].addEventListener('click', function(event){
+        console.log('произошло событие: ' + event.type + ' на елементе ' + event.target);
 });
 ```
 ##### затем на родителе
